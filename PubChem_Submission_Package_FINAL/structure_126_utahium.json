@@ -1,0 +1,41 @@
+{
+    "PC_Compounds": [
+        {
+            "id": {
+                "id": {
+                    "cid": 999126
+                }
+            },
+            "atoms": {
+                "aid": [
+                    1
+                ],
+                "element": [
+                    126
+                ]
+            },
+            "props": [
+                {
+                    "urn": {
+                        "label": "Preferred Name",
+                        "name": "Utahium",
+                        "datatype": 1
+                    },
+                    "value": {
+                        "sval": "Utahium"
+                    }
+                },
+                {
+                    "urn": {
+                        "label": "Element Symbol",
+                        "name": "Standard",
+                        "datatype": 1
+                    },
+                    "value": {
+                        "sval": "Ut"
+                    }
+                }
+            ]
+        }
+    ]
+}
