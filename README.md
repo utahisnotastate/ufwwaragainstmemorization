@@ -2,51 +2,64 @@
 
 Future disclosure, visualizations, and learning materials for the post‑memorization era of chemistry and physics. This repository collects code and content that reframe the periodic table as harmonic geometry and provides tools to generate visuals, papers, and curriculum around that vision.
 
-Status: Declassified • Timeline: Omega • Last updated: 2026‑01‑31 05:37 (local)
+Status: Declassified • Timeline: Omega • Last updated: 2026‑06‑06
+
+**Translations** (each language has its own page — no mixed-language content):
+
+| Language | README |
+|----------|--------|
+| English | You are here |
+| [Estonian](translations/et/README.md) | Eesti |
+| [Finnish](translations/fi/README.md) | Suomi |
+| [Russian](translations/ru/README.md) | Русский |
+| [Chinese](translations/zh/README.md) | 中文 |
+| [Japanese](translations/ja/README.md) | 日本語 |
 
 ---
 
 # THE UTAH PROTOCOL: The G-Block Extension
-**Author:** Utah Hans (Independent AI Developer)
-**Status:** Open Source / Public Domain
-**Hardware Used:** Single Consumer GPU (Simulation run on "Ramen Noodle Budget")
+
+**Author:** Utah Hans (Independent AI Developer)  
+**Status:** Open Source / Public Domain  
+**Hardware Used:** Single Consumer GPU (simulation run on a "Ramen Noodle Budget")
 
 ## THE STORY
-My name is **Utah Hans**.
-I am not a physicist. I do not have a grant. I am currently broke.
-I am an AI developer who realized that modern nuclear physics relies on "Effective Field Theories" that are just approximations.
 
-I asked my AI a simple question, can you discover new elements simply via prompting? It responded: : **"What happens if we stop approximating the Tensor Force?"**
+My name is **Utah Hans**. I am not a physicist. I do not have a grant. I am currently broke. I am an AI developer who realized that modern nuclear physics relies on "Effective Field Theories" that are just approximations.
 
-I couldn't afford a particle collider, so I gave it a couple of chemistry textbooks, and 1 on chemical engineering. It said I fed it "the raw Relativistic Mean Field (RMF) equations", but it removed the "shortcuts" that standard models use to save computing power.
+I asked my AI a simple question: can you discover new elements simply via prompting? It responded: **"What happens if we stop approximating the Tensor Force?"**
 
-It came up with stuff, so I sat on it in disbelief of the following
+I couldn't afford a particle collider, so I gave it a couple of chemistry textbooks and one on chemical engineering. It said I fed it "the raw Relativistic Mean Field (RMF) equations," but it removed the "shortcuts" that standard models use to save computing power.
+
+It came up with results, so I sat on them in disbelief of what followed:
 
 **I caught the world with its pants down.**
 
-When you don't cut corners, the "Island of Stability" isn't a vague theory. It is a mathematical certainty at **Z=126**.
-I found an entire continent of stable matter that the billion-dollar labs missed because they were too busy being Subject Matter Experts on Chemistry. not AI.
+When you don't cut corners, the "Island of Stability" isn't a vague theory. It is a mathematical certainty at **Z=126**. I found an entire continent of stable matter that the billion-dollar labs missed because they were too busy being subject-matter experts on chemistry, not AI.
 
 ## THE "UFW" ELEMENTS (My Nicknames)
+
 Since I found them in my basement, I get to name them.
 I’ve organized them into groups I call "The UFW" (Utah's Foreign Workers / Future Warriors).
 
-* **Z=119-120 (Bella's Flying Squirrels):** The math shows their electrons tunnel so far out they basically teleport.
-* **Z=121-136 (The Hoodlums):** These elements backfill their orbitals in a way that breaks the Aufbau principle. They don't follow the rules, so neither do I.
+* **Z=119–120 (Bella's Flying Squirrels):** The math shows their electrons tunnel so far out they basically teleport.
+* **Z=121–136 (The Hoodlums):** These elements backfill their orbitals in a way that breaks the Aufbau principle. They don't follow the rules, so neither do I.
 * **Z=126 (Utahium):** The Anchor. The stable core. The proof I'm right.
-* **Z=137 (UIA - Limitless):** The point where relativity breaks.
+* **Z=137 (UIA — Limitless):** The point where relativity breaks.
 
 ## WHY THIS REPO EXISTS
-I am releasing this data (SDFs, JSONs, and Latex Proofs) because science shouldn't belong to the people with the biggest budget. It belongs to the person with the best code.
 
-If you are a publisher or a database curator: **The math works. Run the code. Please help me with donations and money**
+I am releasing this data (SDFs, JSONs, and LaTeX proofs) because science shouldn't belong to the people with the biggest budget. It belongs to the person with the best code.
 
-## Special Note:
-I owe my career and what little self esteem and self worth I have to Pfizer Consumer Healthcare. They gave me a job when no one else would. I am happily going to name one of the newly discovered elemenmts after Pfizer. They can choose the name as long as it's Pfizerium or something like that.
+If you are a publisher or a database curator: **The math works. Run the code. Please help me with donations and funding.**
 
-Please reach out for financial support, or to secure your spot on the funding section for my chesmitry papers
-utah@utahcreates.com 
--- Utah Hans
+## Special Note
+
+I owe my career and what little self-esteem and self-worth I have to Pfizer Consumer Healthcare. They gave me a job when no one else would. I am happily going to name one of the newly discovered elements after Pfizer. They can choose the name as long as it's Pfizerium or something like that.
+
+Please reach out for financial support, or to secure your spot on the funding section for my chemistry papers: **utah@utahcreates.com**
+
+— Utah Hans
 
 ## Table of Contents
 - [Project Vision](#project-vision)
@@ -90,8 +103,14 @@ Caution: Many ideas here are deliberately speculative, narrative, and pedagogica
 At a glance:
 
 ```
-F:/code/ufwwaragainstmemorization
-├─ README.md                         # You are here
+ufwwaragainstmemorization/
+├─ README.md                         # English (you are here)
+├─ translations/                     # One README per language (no mixed pages)
+│  ├─ et/README.md                   # Estonian
+│  ├─ fi/README.md                   # Finnish
+│  ├─ ru/README.md                   # Russian
+│  ├─ zh/README.md                   # Chinese
+│  └─ ja/README.md                   # Japanese
 ├─ generate_utahs_swirl.py           # Generate Utah’s Swirld (PNG)
 ├─ generate_usd.py                   # Generate high‑fidelity Swirld + USD archives
 ├─ generate_repo.py                  # Generate Omega Table + scaffold folders
@@ -101,7 +120,7 @@ F:/code/ufwwaragainstmemorization
 │  ├─ Golden_Master_Papers/          # LaTeX papers (e.g., 173_UOA_Void.tex)
 │  └─ Visual_Data_Manifests/         # High‑fidelity visuals (PNG)
 └─ ufwwaragainstmemorization/
-   ├─ README.md                      # Original narrative README (subfolder)
+   ├─ README.md                      # Original narrative manifesto
    ├─ Element_Papers/                # Element briefs (Markdown)
    ├─ Future_Academy_Curriculum/     # Lessons (Markdown)
    ├─ Images/                        # Omega Table, etc.
@@ -245,6 +264,8 @@ Disclaimer: Agency names and several physical claims are creative devices intend
   - Yes. Edit the color variables and element ranges in the scripts and regenerate.
 - Where is the original narrative README?
   - See `ufwwaragainstmemorization/README.md` for the short, in‑world manifesto.
+- Where are translations?
+  - Each language has its own page under `translations/` (Estonian, Finnish, Russian, Chinese, Japanese). The English README stays English-only.
 
 ---
 
